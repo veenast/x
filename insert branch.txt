@@ -1,0 +1,35 @@
+/*		The following script is used for inserting data into the Branch table			*/
+/*				Columns 							*/		/*----------------------------									----------------*/
+/* 	Bran_Id, 	Bran_Name, Bran_Head, Bran_Total_Emp, Bran_Contact, Bran_Phone_No, Divn_Id	 	*/
+/*											*/
+
+INSERT	INTO	Branch	VALUES	(110, 'Nasik',  NULL, 5, NULL,'91-22-86701816', 11);
+INSERT	INTO	Branch	VALUES	(111, 'PUNE', NULL, 3, '',        '91-20-23533723', 11);
+INSERT	INTO	Branch	VALUES	(112, 'Kalyan', NULL, 3,'',         '91-25-28763055',11);
+INSERT	INTO	Branch	VALUES	(113, 'Thane',  NULL, 5,'',         '91-22-56363049',11);
+INSERT	INTO	Branch	VALUES	(114, 'Solapur',NULL, 2,'',         '91-21-72401253',11);
+
+/*-----------------------------								-----------------------*/
+
+INSERT	INTO	Branch	VALUES	(131, 'Dehradun',  NULL, 5, NULL,'91-135-670816', 13);
+INSERT	INTO	Branch	VALUES	(132, 'Faridabad', NULL, 3, '',        '91-129-353723', 13);
+INSERT	INTO	Branch	VALUES	(133, 'Janak Puri', NULL, 3,'',         '91-11-28763053',13);
+INSERT	INTO	Branch	VALUES	(134, 'Ghaziabad',  NULL, 5,'',        '91-120-5361049',13);
+INSERT	INTO	Branch	VALUES	(135, 'Preet Vihar', NULL, 2,'',        '91-11-72401253',13);
+
+
+/*-----------------------------								-----------------------*/
+
+INSERT	INTO	Branch	VALUES	(171, 'Anna Nagar', NULL, 2, NULL, '91-44-26708161', 17);
+INSERT	INTO	Branch	VALUES	(172, 'Coimbatore', NULL, 5, '',        '91-422-35337230', 17);
+INSERT	INTO	Branch	VALUES	(173, 'Salem',          NULL, 3,'',         '91-427-34763053',17);
+INSERT	INTO	Branch	VALUES	(174, 'Madurai',       NULL, 4,'',        '91-452-67810495',17);
+INSERT	INTO	Branch	VALUES	(175, 'Kottayam',     NULL, 2,'',        '91-481-24201253',17);
+
+/*-----------------------------								-----------------------*/
+
+INSERT	INTO	Branch	VALUES	(201, 'Malda',      NULL, 3, NULL, '91-351-708161', 20);
+INSERT	INTO	Branch	VALUES	(202, 'Dugapur',   NULL, 4, '',        '91-343-35337230', 20);
+INSERT	INTO	Branch	VALUES	(203, 'Barasat',    NULL, 2,'',         '91-33-34763053',20);
+INSERT	INTO	Branch	VALUES	(204, 'Siliguri',      NULL, 1,'',        '91-353-7810495',20);
+INSERT	INTO	Branch	VALUES	(205, 'Salt Lake',    NULL, 4,'',        '91-33-24201253',20);

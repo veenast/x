@@ -1,0 +1,42 @@
+/*		The following script is used for inserting data into the Department table			*/
+/*				Columns as follows						*/		/*----------------------------									----------------*/
+/* 		Dept_Id, 	Dept_Name, Dept_Head, Dept_Extn_No, Dept_Location, Orgn_Id		*/
+/*											*/
+
+INSERT	INTO	Department	VALUES	(10, 'Human Resources','','','',1);
+INSERT	INTO	Department	VALUES	(20, 'Operations','','','',1);
+INSERT	INTO	Department	VALUES	(30, 'Finance','','','',1);
+INSERT	INTO	Department	VALUES	(40, 'Production, Planning and Control','','','',1);
+INSERT	INTO	Department	VALUES	(50, 'Materials','','','',1);
+
+/*----------------------------									----------------*/
+
+INSERT	INTO	Department	VALUES	(60,  'Human Resources and Finance','','','',2);
+INSERT	INTO	Department	VALUES	(70,  'Engineering','','','',2);
+INSERT	INTO	Department	VALUES	(80,  'Professional Service Organization','','','',2);
+INSERT	INTO	Department	VALUES	(90,  'Education and Research','','','',2);
+INSERT	INTO	Department	VALUES	(100,'Quality','','','',2);
+
+/*----------------------------									----------------*/
+
+INSERT	INTO	Department	VALUES	(110,  'Personnal Management and Finance','','','',3);
+INSERT	INTO	Department	VALUES	(120,  'Application Development','','','',3);
+INSERT	INTO	Department	VALUES	(130,  'Quality Control','','','',3);
+INSERT	INTO	Department	VALUES	(140,  'Product Engineering','','','',3);
+INSERT	INTO	Department	VALUES	(150,  'Education and Training','','','',3);
+
+/*----------------------------									----------------*/
+
+INSERT	INTO	Department	VALUES	(160,  'Production','','','',4);
+INSERT	INTO	Department	VALUES	(170,  'Research and Design','','','',4);
+INSERT	INTO	Department	VALUES	(180,  'Finance','','','',4);
+INSERT	INTO	Department	VALUES	(190,  'Sales and Marketing','','','',4);
+INSERT	INTO	Department	VALUES	(200,  'Customer Service','','','',4);
+
+/*----------------------------									----------------*/
+
+INSERT	INTO	Department	VALUES	(210,  'Administration and Management');
+INSERT	INTO	Department	VALUES	(220,  'Human Resources');
+INSERT	INTO	Department	VALUES	(230,  'Purchase and Contract');
+INSERT	INTO	Department	VALUES	(240,  'Information Technology');
+INSERT	INTO	Department	VALUES	(250,  'Corporate Service');

@@ -1,0 +1,36 @@
+/*		The following script is used for inserting data into the Employee table			*/
+/*				Columns as follows						*/		/*----------------------------									----------------*/
+/* 		Emp_Id, Emp_FName, Emp_LName, Emp_Salary, Emp_Mgr_Id, Dept_Id, 		*/
+/*		Emp_Join_Date, Emp_Job, Emp_Gender, Bran_Id					*/
+/*											*/
+
+INSERT	INTO	Employee	VALUES	(1000, 'ANEESH', 'ABRAHAM', 13000.00, NULL,10, NULL,'Accountant', 'M', 110);
+INSERT	INTO	Employee	VALUES	(1001, 'ASOK ', 'RAJAN', 15000.00, NULL, 10, NULL, 'Engineer', 'M', 110);
+INSERT	INTO	Employee	VALUES	(1002, 'AJITH', 'JOSEPH', 12000.00, NULL, 10, NULL, 'Saleman', 'M', 110);
+INSERT	INTO	Employee	VALUES	(1003, 'SREEJITH', 'SUNDARAM', 14000.00, NULL, 10, NULL, 'Engineer', 'M', 110);
+INSERT	INTO	Employee	VALUES	(1004, 'FAZAL', 'GHAFOOR', 13000.00, NULL, 10, NULL, 'Accountant', 'M', 110);
+
+/*----------------------------									----------------*/
+
+INSERT	INTO	Employee	VALUES	(1005, 'BIBIN', 'JOSEPH', 16000.00, NULL, 20, NULL,'Designer', 'M', 131);
+INSERT	INTO	Employee	VALUES	(1006, 'AMRITHA', 'ANEESH', 17000.00, NULL, 20, NULL, 'Engineer', 'F', 131);
+INSERT	INTO	Employee	VALUES	(1007, 'ARCHANA', 'VIJAYAN', 20000.00, NULL, 20, NULL, 'Manager', 'F', 131);
+INSERT	INTO	Employee	VALUES	(1008, 'SREEJITH', 'MENON', 12500.00, NULL, 20, NULL, 'Salesan', 'M', 131);
+INSERT	INTO	Employee	VALUES	(1009, 'NIYAS', 'K', 13000.00, NULL, 20, NULL, 'Accountant', 'M', 131);
+
+
+/*----------------------------									----------------*/
+
+INSERT	INTO	Employee	VALUES	(1010, 'RACHEL', 'ABRAHAM', 14000.00, NULL, 30, NULL,'Planner', 'F', 171);
+INSERT	INTO	Employee	VALUES	(1011, 'ANJU', 'SOORYA', 22000.00, NULL, 30, NULL, 'Manager', 'F', 171);
+INSERT	INTO	Employee	VALUES	(1012, 'APARNA', 'RAJKUMAR', 12000.00, NULL, 30, NULL, 'Engineer', 'F', 171);
+INSERT	INTO	Employee	VALUES	(1013, 'REVATHY', 'MENON', 12500.00, NULL, 30, NULL, 'Inspector', 'F', 171);
+INSERT	INTO	Employee	VALUES	(1014, 'RASOOL', 'RAHIM', 13000.00, NULL, 30, NULL, 'Accountant', 'M', 171);
+
+/*----------------------------									----------------*/
+
+INSERT	INTO	Employee	VALUES	(1015, 'GOMATHI', 'MENON', 14000.00, NULL, 40, NULL,'Analyst', 'F', 201);
+INSERT	INTO	Employee	VALUES	(1016, 'SUBIN','THOMAS', 22000.00, NULL, 40, NULL, 'Manager', 'M', 201);
+INSERT	INTO	Employee	VALUES	(1017, 'NIRMALA','DEVI', 12000.00, NULL, 40, NULL, 'Engineer', 'F', 201);
+INSERT	INTO	Employee	VALUES	(1018, 'SAILESH','KUMAR', 12500.00, NULL, 40, NULL, 'Designer', 'M', 201);
+INSERT	INTO	Employee	VALUES	(1019, 'AFZAL', 'SALIM', 13000.00, NULL, 40, NULL, 'Engineer', 'M', 201);

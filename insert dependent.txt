@@ -1,0 +1,33 @@
+/*		The following script is used for inserting data into the Dependent table			*/
+/*				Columns as follows						*/		/*----------------------------									----------------*/
+/* 		Dpen_Id, 	Dpen_Name, Dpen_Relationship, Dpen_Gender, Dpen_DOB, Emp_Id		*/
+/*											*/
+
+INSERT	INTO	Dependent	VALUES	(1, ' AMRITHA ANEESH','Wife', 'F',NULL,1000)
+INSERT	INTO	Dependent	VALUES 	(2,  'ANJU RACHEL ANEESH', 'Daughter', 'F','',1000);
+INSERT	INTO	Dependent	VALUES 	(3, 'ALLEN ANEESH', 'Son', 'M','',1000);
+INSERT	INTO	Dependent	VALUES	(4, 'K M ABRAHAM','Father','M',NULL,1000)
+INSERT	INTO	Dependent	VALUES	(5, 'RACHEL ABRAHAM','Mother','F',NULL,1000);
+
+/*----------------------------									----------------*/
+INSERT	INTO	Dependent	VALUES	(1, 'BALACHANDRA MENON','Husband','M','',1013);
+INSERT	INTO	Dependent	VALUES	(2, 'JAYALEKSHMI B', 'Daughter', 'F',NULL,1013);
+INSERT	INTO	Dependent	VALUES	(3, 'GAUTHAM B', 'Son','M','',1013);
+INSERT	INTO	Dependent	VALUES	(4, 'GOKUL B', 'Son','M',NULL,1013);
+INSERT	INTO	Dependent	VALUES	(5, 'P K MENON','Father','M','',1013);
+INSERT	INTO	Dependent	VALUES	(6, 'GOMATHI MENON','Mother','F',NULL,1013);
+
+/*----------------------------									----------------*/
+INSERT	INTO	Dependent	VALUES	(1, 'FATHIMA GHAFOOR ','Wife', 'F',NULL,1004)
+INSERT	INTO	Dependent	VALUES 	(2,  'AISHA GHAFOOR', 'Daughter', 'F','',1004);
+INSERT	INTO	Dependent	VALUES 	(3, 'ABDUL GHAFOOR', 'Son', 'M','',1004);
+INSERT	INTO	Dependent	VALUES 	(4, 'ALISHA GHAFOOR', 'Daughter', 'M','',1004);
+INSERT	INTO	Dependent	VALUES	(5, 'SALIM IRSHAD GHAFOOR','Father','M',NULL,1004)
+INSERT	INTO	Dependent	VALUES	(6, 'SAIRA BEEVI','Mother','F',NULL,1004);
+
+
+/*----------------------------									----------------*/
+
+
+
+/*----------------------------									----------------*/
